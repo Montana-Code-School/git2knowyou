@@ -25,3 +25,10 @@ footer {
 	border: 1px;
 	box-shadow: 1px;
 }
+
+.nice {
+	font-family: fantasy, "Times New Roman", serif;
+	font-size: 18px;
+	font-weight: none;
+	font-style: oblique;
+}
