@@ -32,3 +32,10 @@ footer {
 	font-weight: none;
 	font-style: oblique;
 }
+
+.lexi {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+}
