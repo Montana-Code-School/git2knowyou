@@ -22,13 +22,28 @@ footer {
 
 .button {
 	color: #800000;
-	border: 1px;
-	box-shadow: 1px;
-}
-
-.nice {
+	border: 1px solid #800000;
+	padding: 5px;
+	box-shadow: 3px 3px 3px #800505;
+	width: 45px;
+	border-radius: 10px;
+	margin: 5px;
 	font-family: fantasy, "Times New Roman", serif;
 	font-size: 18px;
 	font-weight: none;
 	font-style: oblique;
+
+}
+
+.button li {
+	list-style-type: none;
+}
+
+.button:hover {
+	color: #00ff00;
+	border-style: inset;
+	font-family: "Times New Roman", serif;
+	font-style: none;
+	font-size: 24px;
+	padding: 20px;
 }
