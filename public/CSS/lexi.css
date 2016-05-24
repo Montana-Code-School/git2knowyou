@@ -1,10 +1,11 @@
 h1 {
 	text-align: center;
 	font-family: 'Pacifico', cursive;
-	font-size: 50px;
+	font-size: 70px;
 	font-weight: bold;
 	letter-spacing: 20px;
 	color: #FFFFFF;
+	padding-bottom: 40px;
 }
 
 body {
@@ -13,14 +14,14 @@ body {
 
 div.lexi {
 	text-align: center;
-	font-style: normal;
-	word-spacing: 20px;
+	font-size: 20px;
+	margin-top: 20px;
 }
 
 div.star img {
 	position: absolute;
 	left: 30px;
-	top: 400px;
+	top: 350px;
 	z-index: -1;
 	width: 300px;
 	height: 300px;
@@ -29,7 +30,7 @@ div.star img {
 div.seahorse img {
 	position: absolute;
 	left: 380px;
-	top: 400px;
+	top: 350px;
 	width: 300px;
 	height: 300px;
 }
@@ -41,13 +42,13 @@ div.home {
 
 div.dolphin img {
 	position: absolute;
-	top: 400px;
+	top: 350px;
 	left: 700px;
 	width: 300px;
 	height: 300px;
 }
 
 ul#menu li {
-	display: inline;
-	padding: 40px;
+	padding: 10px;
+	font-size: 18px;
 }
