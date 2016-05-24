@@ -7,6 +7,7 @@ body {
 	box-shadow: -10px 10px 10px #888;
 	width:55%;
 	left:30%;
+	border-radius: 5px;
 }
 h2 {
 	text-align: center;
