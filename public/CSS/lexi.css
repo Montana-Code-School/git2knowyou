@@ -1,28 +1,54 @@
-div.title {
+h1 {
 	text-align: center;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 40px;
+	font-family: 'Pacifico', cursive;
+	font-size: 70px;
 	font-weight: bold;
 	letter-spacing: 20px;
-	white-space: nowrap;
-	color: #8B008B
+	color: #FFFFFF;
+	padding-bottom: 40px;
 }
 
 body {
-	background-color: #ccffcc;
+	background-color: #99FFFF;
 }
 
 div.lexi {
 	text-align: center;
-	font-style: normal;
-	word-spacing: 20px;
-	white-space: nowrap;
+	font-size: 20px;
+	margin-top: 20px;
 }
 
-div.owl img {
-	display: block;
-	margin: 100px auto 100px auto;
+div.star img {
+	position: absolute;
+	left: 30px;
+	top: 350px;
+	z-index: -1;
 	width: 300px;
 	height: 300px;
-	border: 10px solid;
+}
+
+div.seahorse img {
+	position: absolute;
+	left: 380px;
+	top: 350px;
+	width: 300px;
+	height: 300px;
+}
+
+div.home {
+	position: absolute;
+	top: 800px;
+}
+
+div.dolphin img {
+	position: absolute;
+	top: 350px;
+	left: 700px;
+	width: 300px;
+	height: 300px;
+}
+
+ul#menu li {
+	padding: 10px;
+	font-size: 18px;
 }
