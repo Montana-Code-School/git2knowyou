@@ -1,0 +1,39 @@
+body {
+	background: #80BFFF;
+	font-family: fantasy, 'Times New Roman', serif;
+	font-size: 20px;
+	font-weight: none;
+	font-style: oblique;
+}
+
+.em {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.logo {
+	position: fixed;
+	top: 0px; left: 0px;
+}
+
+#content {
+	position: fixed; top: 250px;
+}
+
+footer {
+	position: fixed; bottom: 10px;
+}
+
+.button {
+	background-color: #efefef;
+	color: #800000;
+	border: 1px;
+	box-shadow: 1px;
+}
+
+.name {
+	margin-top: 175px;
+	letter-spacing: 20px;
+	white-space: normal;
+	margin-left: 175px;
+}
