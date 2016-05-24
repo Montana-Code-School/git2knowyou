@@ -1,0 +1,34 @@
+body {
+	background: #80BFFF;
+}
+
+.em {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.logo {
+	position: fixed;
+	top: 0px; left: 0px;
+}
+
+#content {
+	position: fixed; top: 175px;
+}
+
+footer {
+	position: fixed; bottom: 10px;
+}
+
+.button {
+	color: #800000;
+	border: 1px;
+	box-shadow: 1px;
+}
+
+.nice {
+	font-family: fantasy, "Times New Roman", serif;
+	font-size: 18px;
+	font-weight: none;
+	font-style: oblique;
+}

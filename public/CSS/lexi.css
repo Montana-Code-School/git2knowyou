@@ -1,0 +1,28 @@
+div.title {
+	text-align: center;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 20px;
+	white-space: nowrap;
+	color: #8B008B
+}
+
+body {
+	background-color: #ccffcc;
+}
+
+div.lexi {
+	text-align: center;
+	font-style: normal;
+	word-spacing: 20px;
+	white-space: nowrap;
+}
+
+div.owl img {
+	display: block;
+	margin: 100px auto 100px auto;
+	width: 300px;
+	height: 300px;
+	border: 10px solid;
+}
