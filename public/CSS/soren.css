@@ -2,6 +2,12 @@ body {
 	font-family: Verdana, sans-serif;
 	background-color: #f2f2f2;
 }
+.title {
+	background-color: #ccf2ff; 
+	box-shadow: -10px 10px 10px #888;
+	width:55%;
+	left:30%;
+}
 h2 {
 	text-align: center;
 	width: 100%;
@@ -12,12 +18,14 @@ a {
 	text-decoration: none;
 	color: #000;
 }
+.link:hover {
+	list-style-type: none;
+}
 
 a:hover {
 	color: #0000ff;
-	border: inset;
 }
-div {
+.sidebar {
 	background-color: #ccf2ff;
 	margin: 10px 0px 10px 0px;
 	padding: 10px;
@@ -25,11 +33,15 @@ div {
 	border-radius:10px;
 	float: right;
 	width: 50%;
+	height: 50%;
+	box-shadow: -10px 10px 10px #888;
 }
-p {
+.mainp {
 	float: left;
+	height: 50%;
 	width: 40%;
-	margin-left: 10px;
+	margin: 10px 0px 10px 10px;
 	font-size: 24px;
-
+	border-left: 2px solid black;
+	padding: 0px 0px 0px 15px;
 }
