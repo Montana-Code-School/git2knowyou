@@ -1,19 +1,17 @@
 body {
-	font-family: Verdana, sans-serif;
+	font-family: Tahoma, sans-serif;
 	background-color: #f2f2f2;
 }
 .title {
 	background-color: #ccf2ff; 
 	box-shadow: -10px 10px 10px #888;
-	width:55%;
-	left:30%;
 	border-radius: 5px;
 }
 h2 {
-	text-align: center;
-	width: 100%;
 	border: 1px solid;
 	border-radius: 5px;
+	text-align: center;
+	padding: 2px;
 }
 a {
 	text-decoration: none;
@@ -25,25 +23,25 @@ a {
 
 a:hover {
 	color: #0000ff;
+	text-decoration: none;
 }
 .sidebar {
 	background-color: #ccf2ff;
-	margin: 10px 0px 10px 0px;
-	padding: 10px;
 	border:none;
 	border-radius:10px;
-	float: right;
-	width: 50%;
-	height: 50%;
 	box-shadow: -10px 10px 10px #888;
+	margin: 20px 0px 20px 0px;
 }
 .mainp {
-	float: left;
-	height: 50%;
-	width: 40%;
-	margin: 10px 0px 10px 10px;
+	margin: 20px 0px 20px 0px;
 	font-size: 24px;
 	border-left: 2px solid black;
-	padding: 0px 0px 0px 15px;
-	z-index: -1;
+}
+li {
+	display: inline;
+	padding: 10px;
+	text-align: center;
+}
+#my_carousel	{
+	border: 5px solid black;
 }
