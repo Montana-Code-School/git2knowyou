@@ -15,13 +15,29 @@
 
 		<link rel="stylesheet" type="text/css" href="../CSS/lexi.css">
 
+<script>
+    $(document).ready(function() {
+        var dolphinAudioElement = document.createElement('audio');
+        dolphinAudioElement.setAttribute('src', '../Audio/dolphin.wav');
+        
 
+        //$.get();
+
+        $('.play').click(function(e) {
+        	e.preventDefault();
+            dolphinAudioElement.play();
+        });
+
+        //$('.pause').click(function() {
+            //dolphinAudioElement.pause();
+        //});
+    });
+</script>      
 			<title>Lexi Taylor Creech</title>
 	</head>
 		<body>
-
-
-
+		<audio src="../Audio/underthesea.mp3" controls autoplay>
+		</audio>
   		<!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   		<div class="modal-dialog" role="document">
@@ -61,13 +77,13 @@
 			<div class="star">
 				<a href="https://en.wikipedia.org/wiki/Starfish"><img src="https://clipartoons.com/wp-content/uploads/2016/01/baby-gear-rentals-kauai.png"></a>
 			</div>
-			<div class="seahorse">
+			<div class="seahorse play">
 				<a href=https://en.wikipedia.org/wiki/Seahorse><img src="http://cliparts.co/cliparts/kcM/nRX/kcMnRXGoi.png"></a>
 			</div>
 			<div class="home">
 				<a href="../index.html">Return to Homepage</a>
 			</div>
-			<div class="dolphin">
+			<div class="dolphin play">
 				<a href="https://en.wikipedia.org/wiki/Dolphin"><img src="http://cliparts.co/cliparts/pTo/AgB/pToAgBEpc.png"></a>
 			</div>
 
