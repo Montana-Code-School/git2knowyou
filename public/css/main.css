@@ -32,6 +32,7 @@ footer {
 	font-size: 18px;
 	font-weight: none;
 	font-style: oblique;
+<<<<<<< HEAD
 
 }
 
@@ -55,3 +56,13 @@ footer {
 	font-style: normal;
 }
 
+=======
+}
+
+.lexi {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: normal;
+}
+>>>>>>> aeb3a91a70617a8128fa23cec1e8b49ca67e35f2
