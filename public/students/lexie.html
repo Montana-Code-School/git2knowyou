@@ -17,33 +17,25 @@
 
 <script>
     $(document).ready(function() {
-        var seahorseAudioElement = document.createElement('audio');
-        seahorseAudioElement.setAttribute('src', '../Audio/seahorse.mp3');
+        //Create a function that creates an audio element that plays a sound when clicked.
+        //Class, and audio file.
+        //The html file has to load in order for the function to work.
+        //New elements and click listeners are being created. And listeners will prevent the default behavior.
+        //Undefined.
+    	function soundOnClick(htmlClass, audioFile) {
+
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', audioFile);
         
 
-        $('.seahorse').click(function(e) {
+        $('.' + htmlClass).click(function(e) {
         	e.preventDefault();
-            seahorseAudioElement.play();
-        });
-        var dolphinAudioElement = document.createElement('audio');
-        dolphinAudioElement.setAttribute('src', '../Audio/dolphin.wav');
-        
-
-        $('.dolphin').click(function(e) {
-        	e.preventDefault();
-            dolphinAudioElement.play();
-        });
-        
-       var starfishAudioElement = document.createElement('audio');
-        starfishAudioElement.setAttribute('src', '../Audio/starfish.mp3');
-        
-
-        $('.starfish').click(function(e) {
-        	e.preventDefault();
-            starfishAudioElement.play();
-        });
-        
-         
+            audioElement.play();
+        	});
+		} 
+		soundOnClick('dolphin', '../Audio/dolphin.wav')
+		soundOnClick('starfish', '../Audio/starfish.mp3')
+		soundOnClick('seahorse', '../Audio/seahorse.mp3')
     });
 </script>      
 			<title>Lexi Taylor Creech</title>
