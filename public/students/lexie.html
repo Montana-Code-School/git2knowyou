@@ -17,20 +17,33 @@
 
 <script>
     $(document).ready(function() {
+        var seahorseAudioElement = document.createElement('audio');
+        seahorseAudioElement.setAttribute('src', '../Audio/seahorse.mp3');
+        
+
+        $('.seahorse').click(function(e) {
+        	e.preventDefault();
+            seahorseAudioElement.play();
+        });
         var dolphinAudioElement = document.createElement('audio');
         dolphinAudioElement.setAttribute('src', '../Audio/dolphin.wav');
         
 
-        //$.get();
-
-        $('.play').click(function(e) {
+        $('.dolphin').click(function(e) {
         	e.preventDefault();
             dolphinAudioElement.play();
         });
+        
+       var starfishAudioElement = document.createElement('audio');
+        starfishAudioElement.setAttribute('src', '../Audio/starfish.mp3');
+        
 
-        //$('.pause').click(function() {
-            //dolphinAudioElement.pause();
-        //});
+        $('.starfish').click(function(e) {
+        	e.preventDefault();
+            starfishAudioElement.play();
+        });
+        
+         
     });
 </script>      
 			<title>Lexi Taylor Creech</title>
@@ -74,16 +87,16 @@
 				<li><a href="https://en.wikipedia.org/wiki/Dolphin">Dolphin</li>
 			</ul>
 			</div>
-			<div class="star">
+			<div class="star starfish">
 				<a href="https://en.wikipedia.org/wiki/Starfish"><img src="https://clipartoons.com/wp-content/uploads/2016/01/baby-gear-rentals-kauai.png"></a>
 			</div>
-			<div class="seahorse play">
+			<div class="seahorse">
 				<a href=https://en.wikipedia.org/wiki/Seahorse><img src="http://cliparts.co/cliparts/kcM/nRX/kcMnRXGoi.png"></a>
 			</div>
 			<div class="home">
 				<a href="../index.html">Return to Homepage</a>
 			</div>
-			<div class="dolphin play">
+			<div class="dolphin">
 				<a href="https://en.wikipedia.org/wiki/Dolphin"><img src="http://cliparts.co/cliparts/pTo/AgB/pToAgBEpc.png"></a>
 			</div>
 
