@@ -6,22 +6,25 @@ body {
 	font-style: oblique;
 }
 
+a {
+	padding: 10px;
+}
+
 .em {
 	font-weight: bold;
 	font-size: 22px;
 }
 
-.logo {
+#logo {
 	position: fixed;
 	top: 0px; left: 0px;
 }
 
 #content {
-	position: fixed; top: 250px;
 }
 
 footer {
-	position: fixed; bottom: 10px;
+	padding: 5px;
 }
 
 .button {
@@ -32,7 +35,6 @@ footer {
 }
 
 .name {
-	margin-top: 175px;
 	letter-spacing: 20px;
 	white-space: normal;
 	margin-left: 175px;
