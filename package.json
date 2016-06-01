@@ -1,0 +1,22 @@
+{
+  "name": "git2knowyou",
+  "version": "1.0.0",
+  "description": "Lisa does node",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Montana-Code-School/git2knowyou.git"
+  },
+  "author": "mtcs code school cohort 3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Montana-Code-School/git2knowyou/issues"
+  },
+  "homepage": "https://github.com/Montana-Code-School/git2knowyou#readme",
+  "dependencies": {
+    "lodash": "^4.13.1"
+  }
+}
